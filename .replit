@@ -1,4 +1,4 @@
-entrypoint = "main.py"
+entrypoint = "start.sh"
 modules = ["nodejs-20", "python-3.11"]
 
 [nix]
@@ -11,7 +11,7 @@ language = "python3"
 requiredFiles = [".replit", "replit.nix"]
 
 [deployment]
-run = ["python3", "main.py"]
+run = ["sh", "start.sh"]
 deploymentTarget = "cloudrun"
 
 [[ports]]
