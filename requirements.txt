@@ -1,0 +1,16 @@
+flask
+flask-cors
+yfinance
+numpy
+pandas
+requests
+websocket-client
+joblib
+ta
+nltk
+tensorflow
+qiskit
+xgboost
+scikit-learn
+plotly
+beautifulsoup4
